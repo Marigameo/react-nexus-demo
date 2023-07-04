@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.loadingSquare {
+    width: 150px;
+    height: 150px;
+    background-color: #f2f2f2;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}

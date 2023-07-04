@@ -1,0 +1,28 @@
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 1.5rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    border-style: dashed;
+    border-color: rgb(63 63 70/1);
+}
+
+.image-container {
+    display: flex;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+}

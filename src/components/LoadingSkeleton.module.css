@@ -1,0 +1,39 @@
+.comment-loader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar-loader {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  animation: loadingAnimation 1s infinite alternate;
+}
+
+.text-loader {
+  margin-left: 10px;
+  flex: 1;
+  height: 10px;
+  background-color: #ffffff;
+  animation: loadingAnimation 1s infinite alternate-reverse;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.comment-loader:last-child {
+  margin-bottom: 0;
+}
